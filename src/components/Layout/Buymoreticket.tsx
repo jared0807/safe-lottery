@@ -2,9 +2,6 @@
 
 import Cancel from "../../assets/cancel.png"
 import { useState } from "react";
-import Ticket from "../../assets/ticket.png"
-import Safemoon from "../../assets/safemoon.png"
-import Error from "../../assets/error.png"
 
 const Buytickets = () => {
     const [isVisible, setIsVisible] = useState(true);

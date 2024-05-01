@@ -2,8 +2,6 @@
 
 import { useState } from "react"
 import QuestionItem from "../QuestionItem"
-import { title } from "process"
-import { text } from "stream/consumers"
 
 const Question = () => {
     const items = [

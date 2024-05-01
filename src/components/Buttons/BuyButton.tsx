@@ -10,6 +10,7 @@ const HeaderButton = () => {
     const [ isComponentVisible, setIsComponentVisible ] = useState(false);
 	const [tonConnectUI] = useTonConnectUI();
     const [walletAddr, setWalletAddr] = useState<string>();
+    console.log(walletAddr);
     useEffect(()=>{
        setWalletAddr(wallet?.account.address!)
     }, [wallet])
