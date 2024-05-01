@@ -1,0 +1,4 @@
+.translate-x-full {
+    transform: translateX(calc(100% - 60px)); /* Adjust the space as needed */
+  }
+  
